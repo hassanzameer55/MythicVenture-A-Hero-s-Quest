@@ -73,7 +73,6 @@ void main() {
 		}
 	}
 
-
 	string mainMenuSelection;
 
 	//We used do while loop here because if any user entered wrong selection then it gets input again from the user
