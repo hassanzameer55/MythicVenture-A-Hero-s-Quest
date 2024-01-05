@@ -353,7 +353,10 @@ void selevel() {
 			exitGame();
 		}
 		else if (level.lvl == 1) {
-			if (option == "1") lvl1();
+			if (option == "1") 
+			{
+				lvl1();
+			}
 
 			else {
 				system("cls");
@@ -362,8 +365,14 @@ void selevel() {
 			}
 		}
 		else if (level.lvl == 2) {
-			if (option == "1") lvl1();
-			else if (option == "2") lvl2();
+			if (option == "1")
+			{
+				lvl1();
+			}
+			else if (option == "2") 
+			{
+				lvl2();
+			}
 
 			else {
 				system("cls");
@@ -373,9 +382,18 @@ void selevel() {
 
 		}
 		else if (level.lvl == 3) {
-			if (option == "1") lvl1();
-			else if (option == "2") lvl2();
-			else if (option == "3") lvl3();
+			if (option == "1")
+			{
+				lvl1();
+			}
+			else if (option == "2") 
+			{
+				lvl2();
+			}
+			else if (option == "3") 
+			{
+				lvl3();
+			}
 			else {
 				system("cls");
 				cout << "\n\tInvalid Choice";
@@ -386,7 +404,6 @@ void selevel() {
 	} while (true);
 
 }
-
 
 //Level1 Dragon
 void lvl1() {
