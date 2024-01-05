@@ -5,13 +5,7 @@
 #include"struct.cpp" //struct.cpp stores all strutures of the program
 
 #pragma comment(lib, "winmm.lib") //This library is for playing music
-
-
-
 using namespace std;
-
-
-
 //struct defined in struct.cpp
 //struct datatypes
 characterInfo character;	//This struct includes profile data, such as name, class, exp
